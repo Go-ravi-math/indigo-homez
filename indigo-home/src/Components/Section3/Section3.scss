@@ -1,0 +1,23 @@
+.InitialBanner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // width: 100%;
+
+    &__one{
+        display: flex;
+        justify-content: center;
+        // width: 20%;
+    }
+    &__two{
+        display: flex;
+        justify-content: center;
+        margin: 0 10px 0 10px;
+        // width: 60%
+    }
+    &__three{
+        display: flex;
+        justify-content: center;
+        // width: 20%
+    }
+}

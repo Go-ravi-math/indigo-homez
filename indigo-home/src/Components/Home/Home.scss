@@ -1,0 +1,33 @@
+.section2{
+    display: flex;
+    margin: 30px;
+  
+    &__label{
+      font-size: 40px;
+      color: #000099;
+      margin-right: 20px;
+    }
+}
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+    &__label1{
+        font-size: 42px;
+        color: #000099;
+        margin-right: 20px;
+      }
+    &__labelgreen{
+        color: #209326;
+    }
+
+    &__label2{
+        font-size: 20px;
+        color: #757C8A;
+        margin-top: 20px;
+    }
+}
