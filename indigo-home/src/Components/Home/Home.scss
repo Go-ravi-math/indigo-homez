@@ -20,7 +20,8 @@
         font-size: 42px;
         color: #000099;
         margin-right: 20px;
-      }
+    }
+
     &__labelgreen{
         color: #209326;
     }
@@ -29,5 +30,43 @@
         font-size: 20px;
         color: #757C8A;
         margin-top: 20px;
+    }
+}
+
+.section6{
+    // padding: 0 20px 0 20px;
+    width: 1200px;
+    height: 610px;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 32px;
+    opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px 2px #4C5D9E1F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .top{
+        width: 1152px;
+        height: 280px;
+        // gap: 16px;
+        opacity: 0px;
+
+        .card2{
+            margin: 30px;
+        }
+    }
+
+    .bottom{
+        width: 1152px;
+        height: 258px;
+        padding: 24px 24px 0 24px;
+        gap: 24px;
+        border-radius: 12px;
+        opacity: 0px;
+        background: #FFFFFF8F;
+        box-shadow: 0px 0px 56.2px -12px #445C794A;
     }
 }

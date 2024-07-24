@@ -8,7 +8,7 @@
     width: 373.33px;
     height: 280px;
     border-radius: 16px;
-    margin: 30px;
+    // margin: 30px;
   
     &__image {
     position: absolute;
@@ -18,16 +18,24 @@
       width: 373.33px;
         height: 280px;
     }
+
+    &__icon {
+        width: 40px;
+    height: 40px;
+    bottom: 23px;
+    }
   
     &__content {
         z-index: 1;
-        margin: 160px 16px 20px 16px;
-        text-align: center;
+        margin: 160px 16px 20px 11px;
+        text-align: left;
         width: 341.33px;
         height: 108px;
         border-radius: 12px;
         background: linear-gradient(177.88deg, rgba(121, 157, 165, 0.69) -68.53%, rgba(33, 25, 17, 0.69) 98.21%);
         box-shadow: 0px -12px 24px 0px #4C5D9E14;
+        padding: 0 0 0 10px ;
+        display: flex;
     }
   
     &__title {
