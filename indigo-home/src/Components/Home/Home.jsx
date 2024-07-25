@@ -7,7 +7,10 @@ import Section5Card from '../Section5Card/Section5Card';
 import WTwidget from '../WTwidget/WTwidget'
 import Section7 from '../Section7/Section7';
 import './Home.scss'
-
+import TestimonialCard from '../TestimonialCard/TestimonialCard';
+import Blogs from '../Blogs/Blogs';
+import InstagramPostCard from '../InstagramCard/InstagramPostCard'
+import Footer from '../Footer/Footer';
 function Home() {
 
   return (
@@ -39,8 +42,11 @@ function Home() {
             <WTwidget/>
         </bottom>
       </section6>
-
       <Section7/>
+      <TestimonialCard/>
+      <Blogs/>
+      <InstagramPostCard/>
+      <Footer/>
     </>
   );
 }

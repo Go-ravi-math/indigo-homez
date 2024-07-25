@@ -15,7 +15,7 @@ const Section7 = ({label, styles}) => {
                         </span>
                         <span>
                             <label style={{'font-size': '16px', 'font-weight': '600'}}>
-                                test
+                                <img src='/Assets/icons/indicator.png'/>
                             </label>
                         </span>
                     </div>
